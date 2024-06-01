@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 const (
 	spanish            = "Spanish"
@@ -24,8 +24,4 @@ func langPrefix(lang string) string {
 		prefix = frenchHelloPrefix
 	}
 	return prefix
-}
-
-func main() {
-	// fmt.Println(Hello())
 }
