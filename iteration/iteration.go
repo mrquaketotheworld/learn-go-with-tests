@@ -1,4 +1,4 @@
-package iteration
+package main
 
 func Repeat(c string, num int) string {
 	str := make([]byte, 0, num)
